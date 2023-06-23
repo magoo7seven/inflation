@@ -1,5 +1,8 @@
 package core;
 
+/**
+ * initial class for first shop
+ */
 public class ShopOne implements IPrices{
 
 

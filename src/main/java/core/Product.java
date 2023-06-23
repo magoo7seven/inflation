@@ -11,7 +11,7 @@ public class Product {
     private String productName;
 
     /**
-     * Price of the product in polish zł
+     * Price of the product in polish zł.
      */
     private double price;
 
