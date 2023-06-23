@@ -13,9 +13,9 @@ public class Product {
     /**
      * Price of the product in polish zł
      */
-    private int price;
+    private double price;
 
-    public Product(String productName, int price) {
+    public Product(String productName, double price) {
         this.productName = productName;
         this.price = price;
     }
@@ -28,11 +28,11 @@ public class Product {
         this.productName = productName;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
